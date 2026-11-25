@@ -1,0 +1,14 @@
+1. Rebuild MDK-ARM/F107_ModbusTCP.uvprojx with ARM Compiler 5.06. Download and Run.
+2. First use a LAN with an authorized DHCP server. Board IP is no longer fixed.
+3. Watch: net_board_dbg, net_client_dbg, net_discovery_dbg.
+4. From the project folder in Windows CMD (no Python required):
+
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Discover-Network.ps1
+
+5. Expected: FOUND with the board's assigned IP, followed by Modbus FC04 OK.
+6. For the original read/write test (Python required), use the NEW board IP:
+
+py -3 tools\test_modbus.py BOARD_IP
+
+Read README_NETWORK_FA.md for static PC limitations, AutoIP waiting, unknown peer
+netmask, hardware tests not yet run and the distinction from SensorGateway 2.0.

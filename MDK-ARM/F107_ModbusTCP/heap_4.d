@@ -1,0 +1,13 @@
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+f107_modbustcp\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+f107_modbustcp\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+f107_modbustcp\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+f107_modbustcp\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+f107_modbustcp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
